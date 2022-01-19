@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Script displays the content of the current directory in a list format
 # Where only the part of the name after the first dash is displayed
-
-for file in $(ls)
+mfile=$(ls)
+for file in $mfile
 do
 	echo "$file" | cut -d '-' -f2
 done
