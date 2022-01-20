@@ -41,7 +41,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 For those who want to know more and learn about all signals, check out [this article](https://alx-intranet.hbtn.io/rltoken/BOU-KVNMqfKEIBo_VOI26A).
 
 ## Tasks
-###v 0. What is my PID
+### 0. What is my PID
 Write a Bash script that displays its own `PID`.
 ```
 sylvain@ubuntu$ ./0-what-is-my-pid
