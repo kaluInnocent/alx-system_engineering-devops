@@ -2,10 +2,10 @@
 # script displays the content of the file "/etc/passwd", 
 # using while loop and IFS
 
-while IFS=: read -r f1 f2 f3 f4 f5 f6 f7
+while IFS=: read -r username password uid gid home shell
 do
-	echo "The user $f2 is part of the $f4 gang, lives in "\ 
-	"$f6 and rides $f7. $f3's place is "\
-	"protected by the passcode $f1, more info about the " \
-	"user here: $f5"
+	echo "The user $username is part of the $gid gang, lives in "\
+	"$home and rides $shell. $uid's place is "\
+	"protected by the passcode $password, more info about the " \
+	"user here: $info"
 done < "/etc/passwd"
