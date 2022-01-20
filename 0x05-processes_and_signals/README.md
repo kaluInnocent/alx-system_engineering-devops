@@ -63,7 +63,8 @@ Requirements:
 - Must show all processes, for all users, including those which might not have a TTY
 - Display in a user-oriented format
 - Show process hierarchy
-- ```
+
+```
 sylvain@ubuntu$ ./1-list_your_processes | head -50
 USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
 root         2  0.0  0.0      0     0 ?        S    Feb13   0:00 [kthreadd]
@@ -131,6 +132,7 @@ Requirements:
 
 - You cannot use `pgrep`
 The third line of your script must be `# shellcheck disable=SC2009` (for more info about ignoring `shellcheck` error [here](https://alx-intranet.hbtn.io/rltoken/vErRT8QGU2bwJ6FLvPLzxw))
+
 ```
 sylvain@ubuntu$ sylvain@ubuntu$ ./2-show_your_bash_pid
 sylvain   4404  0.0  0.7  21432  4000 pts/0    Ss   03:32   0:00          \_ -bash
